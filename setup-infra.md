@@ -87,6 +87,8 @@ eksctl create nodegroup --cluster=EKS-1 \
                        --full-ecr-access \
                        --appmesh-access \
                        --alb-ingress-access
+
+eksctl delete cluster --name EKS-1 --region ap-south-1
 ```
 
 * Open INBOUND TRAFFIC IN ADDITIONAL Security Group
